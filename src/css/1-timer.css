@@ -1,0 +1,83 @@
+#datetime-picker {
+  cursor: pointer;
+}
+
+.flatpickr-input {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  width: 272px;
+  height: 40px;
+  margin-top: 20px;
+  border: 1px solid grey;
+  color: #000;
+  margin-left: 156px;
+}
+
+button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  border: none;
+  background: #4e75ff;
+  color: #fff;
+}
+
+.timer {
+  display: flex;
+  gap: 20px;
+  max-width: 346px;
+  height: 72px;
+  margin-top: 20px;
+  margin-left: 156px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.label {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+  text-transform: uppercase;
+}
+
+  .link {
+  background: #4e75ff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 90px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size:  16px;
+  line-height:  1.5; 
+  letter-spacing: 0.04em;
+  color: #fff;
+  transition: color 1500ms;
+  margin-bottom: 50px;
+  }
+
+  .link :hover {
+    background: #6c8cff;
+  }
