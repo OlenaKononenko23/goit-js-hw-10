@@ -17,6 +17,11 @@
   margin-left: 156px;
 }
 
+button:disabled {
+  background: #cfcfcf;
+  color: #989898;
+}
+
 button {
   border-radius: 8px;
   padding: 8px 16px;
@@ -64,8 +69,8 @@ button {
   background: #4e75ff;
   border-radius: 8px;
   padding: 8px 16px;
-  width: 90px;
-  height: 30px;
+  width: 100px;
+  height: 40px;
   display: flex;
   align-items: center;
   font-family: 'Montserrat', sans-serif;
@@ -75,6 +80,7 @@ button {
   letter-spacing: 0.04em;
   color: #fff;
   transition: color 1500ms;
+  margin-top: 20px;
   margin-bottom: 50px;
   }
 

@@ -40,7 +40,9 @@ ul li {
   line-height:  1.5; 
   letter-spacing: 0.04em;
   color: #fff;
-  transition: color 1500ms;
+  transition: color 1500ms; 
+  margin-top: 30px;
+  margin-left: 40px;
 }
 ul li:hover {
   background: #6c8cff;
