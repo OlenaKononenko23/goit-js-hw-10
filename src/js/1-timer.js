@@ -60,13 +60,13 @@ function convertMs(ms) {
   return { days, hours, minutes, seconds };
 }
 
-// Функція для запуску таймера
+
 btn.addEventListener('click', () => {
   const deadline = userSelectedDate.selectedDates[0];
   btn.disabled = true;
-  calendar.disabled = true; // Деактивуємо інпут
+  calendar.disabled = true; 
 
-  clearInterval(countdown); // Очистіть попередній таймер, якщо він існує
+  clearInterval(countdown); 
 
   countdown = setInterval(() => {
     const now = new Date();
